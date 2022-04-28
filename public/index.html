@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/style.css">
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <title>bookmark landing page</title>
+</head>
+
+<body class="font-Poppins">
+
+  <!-- ====================HEADER================== -->
+  <header class="container flex items-center justify-between py-4 mt-4 sm:mt-12">
+
+    <div class="header__img"><img src="/public/images/logo-bookmark.svg"></div>
+
+    <div class="header__menu">
+
+      <span class="sm:hidden">
+        <i class="block pt-1 text-2xl fa-solid fa-bars text-bookmark-purple"></i>
+      </span>
+
+      <ul class="items-center flex-1 hidden text-xs uppercase sm:flex gap-14 text-bookmark-blue">
+        <li><a href="#">Feature</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        <button type="button"
+          class="py-3 text-center text-white uppercase rounded-md px-7 bg-bookmark-purple">Login</button>
+      </ul>
+
+    </div>
+  </header>
+  <!-- ====================END OF HEADER================== -->
+
+
+  <!-- ======================== START OF HERO ======================= -->
+  <section class="container relative hero">
+    <div class="flex flex-col items-center flex-1 gap-12 mt-14 lg:mt-28 sm:flex-row-reverse">
+      <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 md:mb-16 lg:mb-0 hero__img"><img
+          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="/public/images/hero-bg.png"></div>
+      <div class="flex flex-col items-center flex-1 text-center lg:text-left hero__info lg:items-start">
+        <h1 class="text-3xl text-bookmark-blue md:text-4xl lg:text-5xl">A Simple Bookmark Manager</h1>
+        <p class="py-6 text-bookmark-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit.Eaque
+          nobis suscipit voluptatibus numquam amet. Distinctio, possimus minima!</p>
+        <div class="flex flex-wrap items-center justify-center gap-5 lg:items-start hero__btns">
+          <button class=" btn btn-purple hover:bg-bookmark-white hover:text-black">Get
+            on
+            Chrome</button>
+          <button class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
+            Firefox</button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute right-0 hidden w-2/4 overflow-hidden rounded-l-full top-32 md:block bg-bookmark-purple h-80 lg:-bottom-28 lg:-right-36 ">
+    </div>
+  </section>
+  <!-- ======================== END OF HERO ========================= -->
+
+
+
+</body>
+
+</html>
