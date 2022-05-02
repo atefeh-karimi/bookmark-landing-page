@@ -37,33 +37,49 @@
 
 
   <!-- ======================== START OF HERO ======================= -->
-  <section class="container relative hero">
-    <div class="flex flex-col items-center flex-1 gap-12 mt-14 lg:mt-28 sm:flex-row-reverse">
-      <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 md:mb-16 lg:mb-0 hero__img">
-        <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="/public/images/hero-bg.png">
-      </div>
-      <div class="flex flex-col items-center flex-1 text-center lg:text-left hero__info lg:items-start">
-        <h1 class="text-3xl text-bookmark-blue md:text-4xl lg:text-5xl">A Simple Bookmark Manager</h1>
-        <p class="px-3 py-6 md:px-0 text-bookmark-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit.Eaque
-          nobis suscipit voluptatibus numquam amet. Distinctio, possimus minima!</p>
-        <div class="flex flex-wrap items-center justify-center gap-5 lg:items-start hero__btns">
-          <button class=" btn btn-purple hover:bg-bookmark-white hover:text-black">Get
-            on
-            Chrome</button>
-          <button class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
-            Firefox</button>
+  <section class="relative hero">
+
+    <div class="container">
+
+      <div class="flex flex-col items-center flex-1 gap-12 mt-14 lg:mt-28 sm:flex-row-reverse">
+
+        <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 md:mb-16 lg:mb-0 hero__img">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="/public/images/hero-bg.png">
+        </div>
+
+        <div class="flex flex-col items-center flex-1 text-center lg:text-left hero__info lg:items-start">
+
+          <h1 class="text-3xl text-bookmark-blue md:text-4xl lg:text-5xl">A Simple Bookmark Manager</h1>
+
+          <p class="px-3 py-6 md:px-0 text-bookmark-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit.Eaque
+            nobis suscipit voluptatibus numquam amet. Distinctio, possimus minima!</p>
+
+          <div class="flex flex-wrap items-center justify-center gap-5 lg:items-start hero__btns">
+
+            <button class=" btn btn-purple hover:bg-bookmark-white hover:text-black">Get
+              on
+              Chrome</button>
+
+            <button class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
+              Firefox</button>
+
+          </div>
         </div>
       </div>
+
+      <!-- =====Rounded Rectangle==== -->
+      <div
+        class="absolute right-0 hidden w-2/4 overflow-hidden rounded-l-full top-32 md:block bg-bookmark-purple h-60 lg:-bottom-28">
+      </div>
+
     </div>
-    <div
-      class="absolute right-0 hidden w-2/4 overflow-hidden rounded-l-full top-32 md:block bg-bookmark-purple h-60 lg:-bottom-28 lg:-right-48 ">
-    </div>
+
   </section>
   <!-- ======================== END OF HERO ========================= -->
 
 
   <!-- ======================== START OF FEATURES ======================= -->
-  <section class="container py-20 mt-20 lg:mt-40 features">
+  <section class="py-20 mt-20 lg:mt-40 features">
 
     <!-- =======FEATURES__HEADIND====== -->
     <div class="mx-auto text-center features__heading sm:w-3/4 lg:w-5/12">
@@ -77,85 +93,98 @@
 
     <!-- =======feature#1====== -->
     <div class="relative mt-20 lg:mt-24">
-      <div class="flex flex-col items-center flex-1 gap-x-24 mt-14 lg:mt-28 sm:flex-row">
+      <div class="container">
+        <div class="flex flex-col items-center flex-1 gap-x-24 mt-14 lg:mt-28 sm:flex-row">
 
-        <!-- =====feature__img==== -->
-        <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 features__img md:mb-16 lg:mb-0">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/illustration-features-tab-1.png"
-            alt="">
+          <!-- =====feature__img==== -->
+          <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 features__img md:mb-16 lg:mb-0">
+            <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="./images/illustration-features-tab-1.png" alt="">
+          </div>
+
+          <!-- =====feature__info==== -->
+          <div
+            class="flex flex-col items-center justify-center flex-1 mb-10 features__info features__img md:mb-16 lg:mb-0">
+            <h1 class="text-3xl text-center text-bookmark-blue md:text-4xl lg:text-5xl lg:text-left">Bookmark in one
+              click
+            </h1>
+            <p class="px-3 py-6 text-center text-bookmark-gray lg:text-left md:px-0 ">Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. At culpa ipsam quibusdam modi saepe. Ipsam nostrum qui corporis, unde ipsum
+              ut
+              error eligendi consequatur.</p>
+            <button class="lg:self-start btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          </div>
         </div>
 
-        <!-- =====feature__info==== -->
+        <!-- =====Rounded Rectangle==== -->
         <div
-          class="flex flex-col items-center justify-center flex-1 mb-10 features__info features__img md:mb-16 lg:mb-0">
-          <h1 class="text-3xl text-center text-bookmark-blue md:text-4xl lg:text-5xl lg:text-left">Bookmark in one click
-          </h1>
-          <p class="px-3 py-6 text-center text-bookmark-gray lg:text-left md:px-0 ">Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. At culpa ipsam quibusdam modi saepe. Ipsam nostrum qui corporis, unde ipsum ut
-            error eligendi consequatur.</p>
-          <button class="lg:self-start btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          class="absolute left-0 hidden w-2/4 overflow-hidden rounded-r-full lg:block bg-bookmark-purple h-60 -bottom-24">
         </div>
-      </div>
-      <!-- =====Rounded Rectangle==== -->
-      <div
-        class="absolute hidden w-2/4 overflow-hidden rounded-r-full lg:block bg-bookmark-purple h-60 -bottom-24 -left-36">
       </div>
     </div>
 
     <!-- =======feature#2====== -->
     <div class="relative mt-20 lg:mt-52">
-      <div class="flex flex-col items-center flex-1 gap-x-24 mt-14 lg:mt-28 sm:flex-row-reverse">
+      <div class="container">
+        <div class="flex flex-col items-center flex-1 gap-x-24 mt-14 lg:mt-28 sm:flex-row-reverse">
 
-        <!-- =====feature__img==== -->
-        <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 features__img md:mb-16 lg:mb-0">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/illustration-features-tab-2.png"
-            alt="">
+          <!-- =====feature__img==== -->
+          <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 features__img md:mb-16 lg:mb-0">
+            <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="./images/illustration-features-tab-2.png" alt="">
+          </div>
+
+          <!-- =====feature__info==== -->
+          <div
+            class="flex flex-col items-center justify-center flex-1 mb-10 features__info features__img md:mb-16 lg:mb-0">
+            <h1 class="text-3xl text-center text-bookmark-blue md:text-4xl lg:text-5xl lg:text-left">Intelligent search
+            </h1>
+            <p class="px-3 py-6 text-center text-bookmark-gray lg:text-left md:px-0 ">Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. At culpa ipsam quibusdam modi saepe. Ipsam nostrum qui corporis, unde ipsum
+              ut
+              error eligendi consequatur.</p>
+            <button class="lg:self-start btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          </div>
         </div>
 
-        <!-- =====feature__info==== -->
+        <!-- =====Rounded Rectangle==== -->
         <div
-          class="flex flex-col items-center justify-center flex-1 mb-10 features__info features__img md:mb-16 lg:mb-0">
-          <h1 class="text-3xl text-center text-bookmark-blue md:text-4xl lg:text-5xl lg:text-left">Intelligent search
-          </h1>
-          <p class="px-3 py-6 text-center text-bookmark-gray lg:text-left md:px-0 ">Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. At culpa ipsam quibusdam modi saepe. Ipsam nostrum qui corporis, unde ipsum ut
-            error eligendi consequatur.</p>
-          <button class="lg:self-start btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          class="absolute right-0 hidden w-2/4 overflow-hidden rounded-l-full lg:block bg-bookmark-purple h-60 -bottom-24">
         </div>
-      </div>
 
-      <!-- =====Rounded Rectangle==== -->
-      <div
-        class="absolute hidden w-2/4 overflow-hidden rounded-l-full lg:block bg-bookmark-purple h-60 -bottom-24 -right-36">
       </div>
-
     </div>
 
     <!-- =======feature#3====== -->
     <div class="relative mt-20 lg:mt-24">
-      <div class="flex flex-col items-center flex-1 gap-x-24 mt-14 lg:mt-52 sm:flex-row">
+      <div class="container">
+        <div class="flex flex-col items-center flex-1 gap-x-24 mt-14 lg:mt-52 sm:flex-row">
 
-        <!-- =====feature__img==== -->
-        <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 features__img md:mb-16 lg:mb-0">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/illustration-features-tab-3.png"
-            alt="">
+          <!-- =====feature__img==== -->
+          <div class="z-10 flex flex-col items-center justify-center flex-1 mb-10 features__img md:mb-16 lg:mb-0">
+            <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="./images/illustration-features-tab-3.png" alt="">
+          </div>
+
+          <!-- =====feature__info==== -->
+          <div
+            class="flex flex-col items-center justify-center flex-1 mb-10 features__info features__img md:mb-16 lg:mb-0">
+            <h1 class="text-3xl text-center text-bookmark-blue md:text-4xl lg:text-5xl lg:text-left">Share your Bookmark
+            </h1>
+            <p class="px-3 py-6 text-center text-bookmark-gray lg:text-left md:px-0 ">Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. At culpa ipsam quibusdam modi saepe. Ipsam nostrum qui corporis, unde ipsum
+              ut
+              error eligendi consequatur.</p>
+            <button class="lg:self-start btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          </div>
         </div>
 
-        <!-- =====feature__info==== -->
+        <!-- =====Rounded Rectangle==== -->
         <div
-          class="flex flex-col items-center justify-center flex-1 mb-10 features__info features__img md:mb-16 lg:mb-0">
-          <h1 class="text-3xl text-center text-bookmark-blue md:text-4xl lg:text-5xl lg:text-left">Share your Bookmark
-          </h1>
-          <p class="px-3 py-6 text-center text-bookmark-gray lg:text-left md:px-0 ">Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. At culpa ipsam quibusdam modi saepe. Ipsam nostrum qui corporis, unde ipsum ut
-            error eligendi consequatur.</p>
-          <button class="lg:self-start btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          class="absolute left-0 hidden w-2/4 overflow-hidden rounded-r-full lg:block bg-bookmark-purple h-60 -bottom-24">
         </div>
       </div>
-      <!-- =====Rounded Rectangle==== -->
-      <div
-        class="absolute hidden w-2/4 overflow-hidden rounded-r-full lg:block bg-bookmark-purple h-60 -bottom-24 -left-36">
-      </div>
+
     </div>
 
   </section>
@@ -206,6 +235,91 @@
 
   </section>
   <!-- ======================== END OF Download ========================= -->
+
+
+  <!-- ======================== START OF FAQ ======================= -->
+  <section class="container py-20 mt-20 lg:mt-40">
+
+    <!-- =======FAQ__HEADIND====== -->
+    <div class="mx-auto mb-12 text-center features__heading sm:w-3/4 lg:w-5/12">
+      <h1 class="py-5 text-3xl text-center text-bookmark-blue md:text-4xl ">
+        Frequently Asked Questions
+      </h1>
+      <p class="text-center text-bookmark-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facere,
+        nesciunt rerum libero maiores magnam
+        tempora cupiditate itaque.</p>
+    </div>
+
+    <!-- =====FAQS==== -->
+    <div class="flex flex-col mx-auto FAQs sm:w-3/4 lg:w-5/12">
+
+      <!-- =====FAQ#1==== -->
+      <div class="flex items-center justify-between py-4 border-b FAQ">
+        <h3 class="flex-1">What is a Bookmark?</h3>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <!-- =====FAQ#2==== -->
+      <div class="flex items-center justify-between py-4 border-b FAQ">
+        <h3 class="flex-1">How can request a new browser?</h3>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <!-- =====FAQ#3==== -->
+      <div class="flex items-center justify-between py-4 border-b FAQ">
+        <h3 class="flex-1">Is there a mobile app?</h3>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <!-- =====FAQ#4==== -->
+      <div class="flex items-center justify-between py-4 border-b FAQ">
+        <h3 class="flex-1">What about other Chromium browsers?</h3>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <button class="self-center mt-5 btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+    </div>
+
+  </section>
+  <!-- ======================== END OF FAQ ========================= -->
+
+
+  <!-- ======================== START OF CONTACT ======================= -->
+  <section class="py-20 mt-20 text-center text-white contaienr lg:mt-40 bg-bookmark-purple">
+    <p class="font-thin uppercase">35,000+ already join</p>
+    <!-- =======CONTACT__FORM====== -->
+    <h1 class="py-8 text-2xl">Stay up-to-date with what we're doing</h1>
+    <form class="flex flex-col justify-center gap-5 mx-5 sm:flex-row">
+      <input class="px-12 py-2 text-center border rounded-lg outline-0" type="email"
+        placeholder="Enter your email address">
+      <button
+        class="px-4 py-2 rounded-lg btn outline-0 hover:text-bookmark-blue hover:bg-bookmark-white bg-bookmark-red ">Contact
+        Use</button>
+    </form>
+
+  </section>
+  <!-- ======================== END OF CONTACT ========================= -->
+
+
+  <!-- ======================== START OF FOOTER ======================= -->
+  <section class="py-6 bg-bookmark-blue">
+    <div class="container flex flex-col items-center justify-center pt-5 sm:flex-row sm:pt-0 ">
+
+      <div class="flex flex-1 mb-5 gap-14 sm:mb-0">
+        <img src="/public/images/logo-bookmark-white.png">
+        <!-- =====footer__nav===== -->
+        <ul class="flex items-center gap-12 text-xs text-white uppercase ">
+          <li><a href="#">Feature</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- =====footer__socials===== -->
+      <div class="flex text-white cursor-pointer gap-7 footer__socials">
+        <i class="text-2xl fab fa-twitter"></i>
+        <i class="text-2xl fab fa-facebook-square"></i>
+      </div>
+
+    </div>
+  </section>
+  <!-- ======================== END OF FOOTER ========================= -->
 
 
 </body>
